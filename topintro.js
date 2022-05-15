@@ -36,7 +36,7 @@ function init() {
 
     const loader = new FontLoader();
 
-    loader.load('./fontsbold.json', function (font) {
+    loader.load('fontsbold.json', function (font) {
         const geometry = new TextGeometry('Yadav Jivan', {
             font: font,
             size: 20,
@@ -68,7 +68,7 @@ function init() {
 
     let envmaploader = new THREE.PMREMGenerator(renderer);
 
-    new RGBELoader().setPath('textures/').load('snow_field_4k.hdr', function (hdrmap) {
+    new RGBELoader().load('snow_field_4k.hdr', function (hdrmap) {
 
         let envmap = envmaploader.fromCubemap(hdrmap);
         let texture = new THREE.CanvasTexture(new FlakesTexture());
@@ -97,7 +97,7 @@ function init() {
         animate();
     });
  
-    new RGBELoader().setPath('textures/').load('kloppenheim_02_4k.hdr', function (hdrmap) {
+    new RGBELoader().load('kloppenheim_02_4k.hdr', function (hdrmap) {
 
         let envmap = envmaploader.fromCubemap(hdrmap);
         let texture = new THREE.CanvasTexture(new FlakesTexture());

@@ -1,5 +1,0 @@
-{
-    "liveServer.settings.port": 5501,
-    "appService.defaultWebAppToDeploy": "/subscriptions/2c2b39e8-8710-4ee9-b2c7-cc9f6a5ba944/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/yadavjivan",
-    "appService.deploySubpath": "."
-}
