@@ -46,7 +46,7 @@ function init() {
     const loader = new FontLoader();
    
     if(window.innerWidth<500){
-        loader.load('./fontbold2.json', function (font) {
+        loader.load('fontsbold.json', function (font) {
 
             const lorem = 'A time not so long ago .....\n\n'+
             'Yadav Jivan... A up and coming Software developer\n'+
@@ -83,7 +83,7 @@ function init() {
             scene.add(starWarsText)
         });
     }else{
-        loader.load('./fontbold2.json', function (font) {
+        loader.load('fontsbold.json', function (font) {
 
             const lorem = 'A time not so long ago .....\n\n'+
             'Yadav Jivan... A up and coming Software developer\n'+
