@@ -86,15 +86,15 @@ function init() {
         loader.load('fontbold2.json', function (font) {
 
             const lorem = 'A time not so long ago .....\n\n'+
-            'Yadav Jivan... A up and coming Software developer\n'+
-            'That loves to work in a team a fast learner and\n'+
+            'Yadav Jivan... An up and coming Software developer\n'+
+            'That loves to work in a team a fast learner and \n'+
             'communicates well.'+'He is passionate about\n'+
-            'programming and taking real word problem'+'and\n'+
-            'solving it digitally.'+'He programs fluently in\n'+
-            '8 programing '+'languages and comfortable with azure\n'+
+            'programming and taking real word problem '+'and \n'+
+            'solving it digitally.'+'He programs fluently in \n'+
+            '8 programing '+'languages and comfortable with azure \n'+
             'With 6 years of programming '+'experience.\n'+
             'Skilful at hardware and software.\n'+
-            'There is not better a '+'package!\n\n\nI am Yadav and this is my profile'
+            'There is not a better '+'package!\n\n\nI am Yadav and this is my profile'
     
             const geometry = new TextGeometry(lorem, {
                 font: font,
